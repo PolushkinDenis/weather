@@ -1,0 +1,9 @@
+.weather{
+    margin-left: 25%;
+    width: 50vw;
+    margin-top: 10%;
+    text-align: center;
+    /* background-color: aliceblue; */
+    box-shadow: 0 0 5px 2px rgb(82, 82, 82);	
+    background: rgba(188, 186, 172, 0.5);
+}

@@ -1,0 +1,7 @@
+.input-city{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+}
