@@ -2,10 +2,7 @@ import React, { useEffect, useState } from "react";
 import './Main.css'
 import Weather from '../weather/Weather'
 import TextField from '@material-ui/core/TextField';
-
 import Button from '@material-ui/core/Button';
-
-
 
 const Main = () => {
 
@@ -19,8 +16,6 @@ const Main = () => {
         setWeather(data)
     }
     
-
-
     return (
         <div className="main">
             <div className="input-city">
@@ -29,9 +24,7 @@ const Main = () => {
             </div>
            
             <div className="main-weather">
-
                 <Weather weather={weather} />
-
             </div>
         </div>
     )
